@@ -80,7 +80,9 @@ body{
 
 .profile-image
 {
-    height:500px;
+    height:400px;
+    border-radius: 30%;
+    margin:50px 50px 50px 50px ;
 
 }
 
