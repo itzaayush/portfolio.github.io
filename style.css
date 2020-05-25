@@ -84,12 +84,11 @@ body{
 
 .profile-image
 {
-    height:300px;
-    width:200px;
+    height:400px;
     border-radius: 250%;
     border: 7px double black;
     margin:50px 0px 100px 50px ;
-    orientation: Protrait ;
+    max-width: 100%;
 
 }
 
