@@ -219,6 +219,7 @@ body{
     font-size:15px;
 }
 
+
 .timeline li  p
 {
     color:rgba(155, 151, 151, 0.856);
@@ -245,7 +246,7 @@ body{
 
 .timeline li h4 span{
     font-weight: bold;
-    color: rgb(14, 13, 13);
+    color: rgb(211, 211, 211);
 }
 
 .timeline li:before 
