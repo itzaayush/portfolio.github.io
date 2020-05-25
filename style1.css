@@ -104,6 +104,7 @@ body{
     border: 7px double rgb(255, 255, 255);
     margin:50px 0px 100px 50px ;
     max-width: 100%;
+    max-height:90%;
 }
 
 
