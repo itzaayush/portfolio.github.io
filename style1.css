@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background-color: black;
 }
 /* header */
 
@@ -27,7 +28,7 @@ body{
 {
     border-radius: 50%;
     width:250px;
-    border:2px solid #6caed5;
+    border:2px solid #3e515c;
 }
 
 .user-box h1
@@ -73,11 +74,34 @@ body{
 
 /* about */
 
+
+.about
+{
+    padding-top:100px ;
+    padding-bottom: 130px;
+    margin-bottom:-20%;
+    background-color:  #212222;
+}
+.user-info
+{
+    background-color:   #212222;
+}
+
+.about h3
+{
+    color:white;
+}
+
+.about p
+{
+    color:white;
+}
+
 .profile-image
 {
     height:400px;
     border-radius: 50%;
-    border: 2px dotted black;
+    border: 2px dotted White;
     margin:50px 50px 50px 0px ;
 
 }
@@ -141,17 +165,18 @@ body{
 .progress-bar
 {
     border-radius:16px;
-    background: black !important;
+    background: rgb(26, 25, 25) !important;
+  
 }
 
 /* Resume */
 
 .resume
 {
-    margin-top: -50px;
+    margin-top: -1%;
     padding-top: 100px;
     padding-bottom: 30px;
-    background-color: #dbdedf;
+    background-color: #1b1b1b;
 }
 
 .resume h3
@@ -169,7 +194,7 @@ body{
 .timeline:before 
 {
     content: '';
-    background: #555;
+    background: rgb(248, 246, 246);
     display: inline-block;
     position: absolute;
     left:29px;
@@ -183,26 +208,50 @@ body{
     margin-top:20px;
     margin-bottom: 20px;
     margin-left: 20px;
-    background: #fff;
+    background: rgba(63, 62, 62, 0.671);
 }
 
 .timeline li h4
 {
-    background-color: #000;
+    background-color: rgba(15, 15, 15, 0.747);
     padding:5px 0 5px 20px;
-    color: #fff;
+    color: rgb(253, 253, 253);
     font-size:15px;
 }
 
+.timeline li  p
+{
+    color:rgba(155, 151, 151, 0.856);
+}
+
+.timeline li a
+{
+    color:white;
+}
+
+
+.timeline li b
+{
+    color:#b0c4bd;
+}
+
+
+.container h3
+{
+    color:white;
+}
+
+
+
 .timeline li h4 span{
     font-weight: bold;
-    color: #ccc;
+    color: rgb(14, 13, 13);
 }
 
 .timeline li:before 
 {
     content: '';
-    background: #555;
+    background: rgb(185, 180, 180);
     display: inline-block;
     position: absolute;
     border-radius: 50%;
@@ -290,7 +339,6 @@ body{
     top:50%;
     transform: translateY(-50%);
     position: sticky;
-    margin-left:0%;
     z-index:1;
     width:80px ;
 }
@@ -319,5 +367,3 @@ body{
     width:80px;
     transition: 1sec;
 }
-
-
