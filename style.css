@@ -72,6 +72,15 @@ body{
 }
 
 /* about */
+.about
+{
+    padding-top:100px ;
+    padding-bottom: 130px;
+    margin-bottom:-20%;
+    padding-bottom: 11%;
+
+}
+
 
 .profile-image
 {
