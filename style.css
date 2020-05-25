@@ -84,12 +84,12 @@ body{
 
 .profile-image
 {
-    height:400px;
-    border-radius: 250%;
+    width:50%;
     border: 7px double black;
-    margin:50px 0px 100px 50px ;
+    margin:1.66%;
     max-width: 100%;
-    max-height:90%
+    max-height:90%;
+    float: top;
 
 }
 
