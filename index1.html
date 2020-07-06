@@ -18,7 +18,9 @@
             <div class="user-box">
                 <img src="images/user1.jpg" alt="">
                 <h1>Ayush Sharma</h1>
-                <p> A STUDENT!</p>
+                <div class= " header-area">
+                    <h2>I'M a <span id="type"></span></h2>
+                </div>
             </div>
         </div>
         <div class="scroll-btn">
@@ -259,5 +261,19 @@
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>
     
+    <script src="typed.js"></script>
+    <script>
+     var typed = new Typed("#type", {
+       strings:[
+           "Developer!",
+           "Coder!",
+           "Editor!"
+       ],
+       typeSpeed:50,
+       backSpeed:50,
+       loop:true
+     });
+ </script>
+
 </body>
 </html>
